@@ -15,7 +15,7 @@ body{
 }
 .advice-cont{
     background-color: hsl(217, 19%, 24%);
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 50px 10px;
     padding: 30px 30px 0;
     text-align: center;
@@ -34,6 +34,9 @@ body{
     color: hsl(193, 38%, 86%);
     font-weight: 800;
     font-size: 28px;
+}
+.dsktp-divider{
+display: none;
 }
 #dice-icon{
     display: flex;
@@ -60,4 +63,20 @@ outline: none;
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+/* media queries */
+
+@media (min-width: 768px) {
+    .advice-cont{
+       width: 450px;
+    }
+    .mobile-divider{
+display: none;
+}
+
+.dsktp-divider{
+display: block;
+}
 }
