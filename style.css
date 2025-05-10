@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Manrope", sans-serif;
+}
+.container{
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+.advice-cont{
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 5px;
+    margin: 50px 10px;
+    padding: 30px 30px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.advice-cont h2{
+    color: hsl(150, 100%, 66%);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+.advice-cont p{
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+    font-size: 28px;
+}
+#dice-icon{
+    display: flex;
+    justify-content: center;
+ padding: 20px;
+ border-radius: 50px;
+    background-color: hsl(150, 100%, 66%);
+    position: relative;
+    bottom: -34px;
+outline: none;
+    border: none;
+}
+#dice-icon:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px 4px hsl(150, 100%, 66%);
+}
+.dice-img {
+}
+/* attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
