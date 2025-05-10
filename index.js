@@ -12,6 +12,7 @@ async function getAdvice() {
   try {
     const res = await fetch('https://api.adviceslip.com/advice');
     const data = await res.json();
+    // logs to the console
     console.log(data.slip.id);
     console.log(data.slip.advice);
 
